@@ -1,4 +1,4 @@
-import url('https://fonts.googleapis.com/css?family=Roboto:100i');
+@import url('https://fonts.googleapis.com/css?family=Roboto:100i');
 
 body {
 	background-color: black;
@@ -15,6 +15,32 @@ body {
 	user-select: none;
 }
 
+  /* ---- particles.js container ---- */
+
+  #particles-js {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: #000000;
+  background-image: url("");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
+  }
+
+  body {
+        background-color:black;
+        background-repeat: no-repeat;
+        background-size: cover; 
+        background-attachment: fixed;
+		overflow: hidden;
+  }
+
+  @font-face{
+    font-family: roboto;
+    src: url("https://fonts.googleapis.com/css?family=Roboto:100i");
+  }
+
 pre {
 	font-size: 17px;
 	text-align: center;
@@ -27,7 +53,7 @@ pre {
 }
   @font-face{
     font-family: roboto;
-    src: url(roboto.ttf);
+    src: url("https://fonts.googleapis.com/css?family=Roboto:100i");
   }
    
 	#codes {
@@ -47,7 +73,7 @@ pre {
                         -ms-animation: fadein 3s; /* Internet Explorer */
                                 -o-animation: fadein 3s; /* Opera < 12.1 */
         animation: fadein 3s;
-        }
+ }
    
   #bdog {
         font-size:25px;
