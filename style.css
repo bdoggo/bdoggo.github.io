@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:100i');
+
+body {
+		background-color: black;
+		background-repeat: no-repeat
+}
+
+@font-face {
+	font-family: roboto;
+	src: url(roboto.ttf);
+}
+
+h1 {
+	font-size: 50px;
+	text-align: center;
+	font-family: roboto;
+	-webkit-animation: fadein 2s;
+	-moz-animation: fadein 2s;
+	-ms-animation: fadein 2s;
+	-o-animation: fadein 2s;
+	animation: fadein 2s;
+}
+
+
+/* mouse over link */
+a:hover {
+    color: hotpink;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+a:active {
+    text-decoration: none;
+}
+
+  #bdog {
+        font-size:25px;
+        font-family: roboto;
+        color:white;
+    position: absolute;
+    left: 50%;
+    top: 50%;   
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+                text-align: center;
+                -webkit-animation: fadein 3s; /* Safari, Chrome and Opera > 12.1 */
+                -moz-animation: fadein 3s; /* Firefox < 16 */
+                        -ms-animation: fadein 3s; /* Internet Explorer */
+                                -o-animation: fadein 3s; /* Opera < 12.1 */
+        animation: fadein 3s;
+ }
