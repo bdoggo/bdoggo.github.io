@@ -5,6 +5,11 @@ body {
 		background-repeat: no-repeat
 }
 
+@font-face {
+	font-family: roboto;
+	src: url(roboto.ttf);
+}
+
 h1 {
 	font-size: 50px;
 	text-align: center;
@@ -15,6 +20,7 @@ h1 {
 	-o-animation: fadein 2s;
 	animation: fadein 2s;
 }
+
 
 /* mouse over link */
 a:hover {
